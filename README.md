@@ -1,0 +1,2 @@
+# ASP.NET-Core-MVC-Service-DAL-project
+Test project with 3 layered arhitecture (MVC - Service - Repository). MVC = top layer, communicates with the user  (contains controllers + views). Service = middle layer, takes request from controller, fetches needed data from repository and returns needed results. DAL (Data Access layer) implements repository pattern with generic and specific interfaces so it can communicates and fetch data from database. 
